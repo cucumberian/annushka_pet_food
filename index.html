@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/face-monkey_64.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Корм для животных</title>
+</head>
+<body>
+    <header>
+        <div class="max_width">
+            <nav>
+                <div id="left_nav">
+                    <a href=""><img src="./img/p_p.svg"></a>
+                    <div id="ham_menu">
+                        <img src="./img/menu_icon.svg" alt="menu icon" caption="меню">
+                        <p>Меню рационов</p>
+                    </div>
+                </div>
+
+                <div id="right_nav">
+                    <ul>
+                        <li><a href="">Заказать</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                    <div id="basket">
+                        <a href="">
+                            <img src="./img/basket_icon.svg" alt="basket icon" caption="корзина">
+                            <span>(0)</span>
+                        </a>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </nav>
+
+            <div id="welcome">
+                <div>
+                    <h1>
+                        Полезное питание для 
+                        <br>
+                        любимых питомцев
+                    </h1>
+
+                    <p>
+                        Быстрая доставка и большой 
+                        <br>
+                        выбор вкусной еды для собак и кошек!
+                    </p>
+                    <button>Выбрать рацион</button>
+                </div>
+
+                <div>
+                    <picture>
+                        <source srcset="./img/a_dog.jpg" media="">
+                        <img src="./img/a_dog.jpg" alt="А" caption="Посмотрите как мы готовим">
+                    </picture>
+                    <div id="video_control">
+                        <p>
+                            Посмотрите, 
+                            <br>
+                            как мы готовим
+                        </p>
+                        <div>
+                            <img src="./img/play.svg" alt="начать воспроизведение" caption="начать воспроизведение">
+                            <img src="./img/play_arrow.svg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="foods" class="bg_cyan">
+            <div class="max_width">
+                <div>
+                    <h3>Выберите рацион</h3>
+                    <div id="slide_arrows">
+                        <img src="./img/arrow_left_grey.svg" alt="previous slide" caption="next slide">
+                        <img src="./img/arrow_rigth_grey.svg" alt="next slide" caption="previous slide">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="food_pic_container">
+                        <div>
+                            <picture>
+                                <source srcset="./img/food_1.jpg" media="">
+                                <img src="./img/food_1.jpg" alt="собака и кошка" caption="корм контроль веса из рыбы">
+                            </picture>
+                            
+                            <div class="food_captions">
+                                <div>
+                                    <h4>Контроль веса</h4>
+                                    <p>Рыба</p>
+                                </div>
+                                <a href="#"><div><img src="./img/arrow_right_white.svg"></div></a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <picture>
+                                <source srcset="./img/food_2.jpg" media="">
+                                <img src="./img/food_2.jpg" alt="кошка ест" caption="корм мягкая шерсть ягнёнок">
+                            </picture>
+                            
+                            <div class="food_captions">
+                                <div>
+                                    <h4>Мягкая шерсть</h4>
+                                    <p>Ягнёнок</p>
+                                </div>
+                                <a href="#"><div><img src="./img/arrow_right_white.svg"></div></a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <picture>
+                                <source srcset="./img/food_3.jpg" media="">
+                                <img src="./img/food_3.jpg" alt="собака облизывается" caption="корм свежее дыхание из индейки">
+                            </picture>
+                            
+                            <div class="food_captions">
+                                <div>
+                                    <h4>Свежее дыхание</h4>
+                                    <p>Индейка</p>
+                                </div>
+                                <a href="#"><div><img src="./img/arrow_right_white.svg"></div></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="picture_dots">
+                        <div class="picture_dot"></div>
+                        <div class="picture_dot"></div>
+                        <div class="picture_dot active_dot"></div>
+                        <div class="picture_dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="order_section">
+            <div class="max_width">
+                <div>
+                    <h3>
+                        Закажите 
+                        <br>
+                        рацион
+                    </h3>
+                    <p>
+                        Выберите рацион, заполните данные 
+                        <br>
+                        и наш менеджер свяжется с вами для 
+                        <br>
+                        подтверждения заказа
+                    </p>
+                </div>
+            
+                <form action="">
+                    <input type="select" placeholder="Выбрать рацион">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="tel" placeholder="Ваш телефон">
+                    <button type="submit">Выбрать рацион</button>
+                </form>
+            
+                <picture>
+                    <source srcset="./img/happy_dog.jpg" media="">
+                    <img href="./img/happy_dog.jpg" alt="фоторафия счастливой собаки" caption="довольная собака">
+                </picture>
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg_cyan">
+        <div class="max_width">
+            <a href="#"><img src="./img/p_p.svg"></a>
+            <div>
+                <p>Мы на связи с вами</p>
+                <a href="tel:+79774437383">+7 (977) 443 73 83</a>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script defer type="text/javascript" src=""></script>
