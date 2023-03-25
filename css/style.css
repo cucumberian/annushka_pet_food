@@ -321,6 +321,7 @@ header nav {
     justify-content: space-between;
     max-width: 320px;
     min-width: 200px;
+    height: 320px;
 }
 #order_section form > * {
     height: 69px; 
@@ -333,8 +334,6 @@ header nav {
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
-    
-
 }
 
 
