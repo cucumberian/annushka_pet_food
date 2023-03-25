@@ -217,8 +217,19 @@ header nav {
 
 .food_pic_container > div {
     background-color: white;
-    padding: 30px;
+    /* padding: 30px; */
+    padding-top: 30px;
+    width: 380px;
     padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.food_pic_container > div > * {
+    margin: 0 auto;
+}
+.food_pic_container > div > div {
+    width: 320px;
 }
 
 .food_captions {
