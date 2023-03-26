@@ -20,7 +20,8 @@ body {
 }
 
 .max_width {
-    max-width: 1200px;
+    max-width: 1180px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -75,7 +76,6 @@ header {
 }
 header .max_width {
     height: 614px;
-    padding: 0;
 }
 
 header nav {
@@ -334,12 +334,17 @@ header nav {
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;
+
+    border: 1px solid #89D8D8;
+    background-color: none;
+    outline: none;
 }
 
 
-#order_section form > input {
-    border: 1px solid #89D8D8;
-    outline: none;
+#order_section form > select {
+    color: #72605A;
+    background-color: white;
+    padding-right: 20px;
 }
 
 #order_section form > input:focus {
