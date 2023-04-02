@@ -164,19 +164,20 @@
             
                 <form action="">
                     <!-- <input type="select" placeholder="Выбрать рацион"> -->
-                    <select placeholder="Выбрать рацион">
+                    <select name="ware_type" placeholder="Выбрать рацион" required>
                         <option value="">Выберите рацион</option>
                         <optgroup>
-                            <option value="1">На каждый день</option>
-                            <option value="2">Лакомка</option>
-                            <option value="3">Контроль веса</option>
-                            <option value="4">Мягкая шерсть</option>
-                            <option value="5">Свежее дыхание</option>
-                            <option value="6">Блеск в глазах</option>
+                            <option value="na_kajdii_den">На каждый день</option>
+                            <option value="lakomka">Лакомка</option>
+                            <option value="kontrol_vesa">Контроль веса</option>
+                            <option value="myagkaya_sherst">Мягкая шерсть</option>
+                            <option value="svejee_dihanie">Свежее дыхание</option>
+                            <option value="blesk_v_glazah">Блеск в глазах</option>
                         </optgroup>
                     </select>
-                    <input type="text" placeholder="Ваше имя">
-                    <input type="tel" placeholder="Ваш телефон">
+                    <input type="text" name="firstname" placeholder="Ваше имя" maxlength="40" reauired>
+                    <input type="tel" name="tel" placeholder="Ваш телефон" required>
+                    <input type="text" name="message" placeolder="Сообщение" required>
                     <button type="submit">Выбрать рацион</button>
                 </form>
             
@@ -202,4 +203,4 @@
 </body>
 </html>
 
-<script defer type="text/javascript" src=""></script>
+<script defer type="text/javascript" src="./js/script.js"></script>
